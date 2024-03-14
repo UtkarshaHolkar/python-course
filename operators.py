@@ -33,3 +33,17 @@ print('a*=b:', a*b)
 print('a%=b:', a%b)  
 print('a**=b:', a**b)  
 print('a//=b:', a//b)  
+
+# Bitwise Operators
+# The two operands' values are processed bit by bit by the bitwise operators. The examples of Bitwise operators are bitwise OR (|), bitwise AND (&), bitwise XOR (^), negation (~), Left shift (<<), and Right shift (>>). Consider the case below.
+
+Now we give code examples of Bitwise operators in Python. The code is given below -
+
+a = 5          # initialize the value of a  
+b = 6          # initialize the value of b  
+print('a&b:', a&b)  
+print('a|b:', a|b)  
+print('a^b:', a^b)  
+print('~a:', ~a)  
+print('a<<b:', a<<b)  
+print('a>>b:', a>>b)  
