@@ -47,3 +47,20 @@ print('a^b:', a^b)
 print('~a:', ~a)  
 print('a<<b:', a<<b)  
 print('a>>b:', a>>b)  
+
+
+Logical Operators
+The assessment of expressions to make decisions typically uses logical operators. The examples of logical operators are and, or, and not. In the case of logical AND, if the first one is 0, it does not depend upon the second one. In the case of logical OR, if the first one is 1, it does not depend on the second one. Python supports the following logical operators. In the below table, we explain the works of the logical operators.
+
+Operator	Description
+and	The condition will also be true if the expression is true. If the two expressions a and b are the same, then a and b must both be true.
+or	The condition will be true if one of the phrases is true. If a and b are the two expressions, then an or b must be true if and is true and b is false.
+not	If an expression a is true, then not (a) will be false and vice versa.
+Program Code:
+
+Now we give code examples of arithmetic operators in Python. The code is given below -
+
+a = 5          # initialize the value of a          
+print(Is this statement true?:',a > 3 and a < 5)  
+print('Any one statement is true?:',a > 3 or a < 5)  
+print('Each statement is true then return False and vice-versa:',(not(a > 3 and a < 5)))  
